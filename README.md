@@ -1,5 +1,5 @@
 # HOS-CMS
-Laravel 10 Project Website Hospital CMS
+Laravel 10 Project Website Hospital CMS (Support PHP 8.1.x)
 
 ## About Laravel HOS-CMS
 
