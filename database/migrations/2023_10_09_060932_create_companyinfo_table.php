@@ -22,19 +22,19 @@ return new class extends Migration
             $table->string('tel_2', 10)->nullable();
             $table->string('fax', 10)->nullable();
             $table->timestamps();
-            DB::table('companyinfo')->insert(
-                array(
-                    'name' => 'โรงพยาบาล',
-                    'about' => 'รพ',
-                    'email' => 'contact@hospital.go.th',
-                    'address' => 'ที่อยู่',
-                    'taxid' => 'เลขภาษี',
-                    'tel_1' => 'โทร1',
-                    'tel_2' => 'โทร2',
-                    'fax' => 'โทรสาร'
-                )
-            );
         });
+        DB::table('companyinfo')->insert(
+            array(
+                'name' => 'โรงพยาบาล',
+                'about' => 'รพ',
+                'email' => 'contact@hospital.go.th',
+                'address' => 'ที่อยู่',
+                'taxid' => 'เลขภาษี',
+                'tel_1' => 'โทร1',
+                'tel_2' => 'โทร2',
+                'fax' => 'โทรสาร'
+            )
+        );
     }
 
     /**
